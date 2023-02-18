@@ -17,14 +17,14 @@ php artisan vendor:publish --tag=laravel-brazilian-portuguese
 3.  Configure o Framework para utilizar 'pt_BR' como linguagem padrão
 
 ```
-// Altere Linha 85 do arquivo config/app.php para:
+// Altere o arquivo config/app.php para:
 'locale' => 'pt_BR',
 ```
 
 4. Configure o framework para utilizar 'America/Sao_Paulo' como zona padrão
 
 ```
-// Altere Linha 72 do arquivo config/app.php para:
+// Altere o arquivo config/app.php para:
 'timezone' => 'America/Sao_Paulo',
 ```
 

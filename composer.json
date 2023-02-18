@@ -1,0 +1,25 @@
+{
+    "name": "danpalmieri/laravel-brazilian-portuguese",
+    "description": "Tradução do Laravel para Português do Brasil.",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Dan Palmieri",
+            "email": "contato@danpalmieri.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DanPalmieri\\LaravelBrazilianPortuguese\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DanPalmieri\\LaravelBrazilianPortuguese\\LaravelBrazilianPortugueseServiceProvider"
+            ]
+        }
+    }
+}

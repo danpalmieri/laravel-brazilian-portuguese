@@ -9,7 +9,6 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
     "autoload": {
         "psr-4": {
             "DanPalmieri\\LaravelBrazilianPortuguese\\": "src/"
@@ -21,5 +20,8 @@
                 "DanPalmieri\\LaravelBrazilianPortuguese\\LaravelBrazilianPortugueseServiceProvider"
             ]
         }
+    },
+    "require-dev": {
+        "laravel/pint": "^1.5"
     }
 }
